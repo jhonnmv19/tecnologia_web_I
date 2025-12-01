@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #eef0f4;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #364fc7;
+    color: white;
+    border-bottom: 5px solid #2c3e9e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Contenedor del menú */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+/* Tarjetas */
+.card {
+    background: white;
+    width: 260px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    border-top: 6px solid #364fc7;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* Textos */
+.card h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+/* Foto de perfil */
+.perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: white;
+}
