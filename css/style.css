@@ -76,3 +76,32 @@ header h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background: white;
 }
+
+.btn-rojo, .btn-azul {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botón rojo */
+.btn-rojo {
+    background: #e63946;
+}
+
+.btn-rojo:hover {
+    background: #c52d39;
+}
+
+/* Botón azul */
+.btn-azul {
+    background: #457b9d;
+}
+
+.btn-azul:hover {
+    background: #36627a;
+}
