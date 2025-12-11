@@ -3,20 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Sulphur+Point:wght@300;400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="../css/styleP2.css">
-    <title>Práctica CSS</title>
+    <title>Práctica 2</title>
+    <link rel="stylesheet" href="../css/practica2.css">
 </head>
 <body>
+<a href="../index.html" class="btn-volver"> Volver al Inicio</a>
 
-    <h1 class="titulo">MI PRACTICA DE CSS</h1>
+    <h1>Práctica 2 – Ejercicios JavaScript</h1>
 
-    <p class="texto tourney-regular">
-        LO QUE NECESITA ESE MANFRENCITO ES UN YERVASO LOCO , UNA NATURALEZA . UNA NATURALEZA MANFRENCITO ,PARA RELAJAR LA MENTE MANFRENF .
-    </p>
+    <!-- EJERCICIO 1 -->
+    <section>
+        <h2>Ejercicio 1: Clima según temperatura</h2>
+        <input type="number" id="tempInput" placeholder="Ingrese temperatura °C">
+        <button onclick="ejercicio1()">Evaluar</button>
+        <p id="resultado1"></p>
+    </section>
+
+    <!-- EJERCICIO 2 -->
+    <section>
+        <h2>Ejercicio 2: FizzBuzz</h2>
+        <button onclick="ejercicio2()">Mostrar FizzBuzz</button>
+        <pre id="resultado2"></pre>
+    </section>
+
+    <!-- EJERCICIO 3 -->
+    <section>
+        <h2>Ejercicio 3: Fecha actual</h2>
+        <button onclick="ejercicio3()">Mostrar Fecha</button>
+        <p id="resultado3"></p>
+    </section>
+
+    <!-- EJERCICIO 4 -->
+    <section>
+        <h2>Ejercicio 4: Objeto lugarTuristico</h2>
+        <button onclick="ejercicio4()">Probar</button>
+        <pre id="resultado4"></pre>
+    </section>
+
+    <!-- EJERCICIO 5 -->
+    <section>
+        <h2>Ejercicio 5: Clase Hotel</h2>
+        <button onclick="ejercicio5()">Probar</button>
+        <pre id="resultado5"></pre>
+    </section>
+
+    <!-- Scripts -->
+    <script src="../js/ejercicio1.js"></script>
+    <script src="../js/ejercicio2.js"></script>
+    <script src="../js/ejercicio3.js"></script>
+    <script src="../js/ejercicio4.js"></script>
+    <script src="../js/ejercicio5.js"></script>
 
 </body>
 </html>
