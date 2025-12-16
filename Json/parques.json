@@ -1,0 +1,43 @@
+{
+  "parkName": "Evo Splash",
+  "location": "Santa Cruz, Bolivia",
+  "opened": 2025,
+  "attractions": [
+    {
+      "name": "Play Land Amusement Park",
+      "ageLimit": "3+",
+      "price": "Bs. 60 por persona",
+      "description": "Parque acuático con toboganes y piscinas para toda la familia, ubicado en Santa Cruz.",
+      "locationURL": "https://maps.app.goo.gl/yiFu4cHaHgZmQ48EA",
+      "features": [
+        "Piscinas para niños y adultos",
+        "Toboganes gigantes",
+        "Zona de picnic y sombra"
+      ]
+    },
+    {
+      "name": "Kalomai Park",
+      "ageLimit": "5+",
+      "price": "Bs. 80 por persona",
+      "description": "Parque recreativo con juegos acuáticos, piscinas y áreas de entretenimiento, en Santa Cruz.",
+      "locationURL": "https://maps.app.goo.gl/wzphQtAd6CJKoKmA9",
+      "features": [
+        "Piscinas con olas",
+        "Río lento para relajarse",
+        "Seguridad y salvavidas certificados"
+      ]
+    },
+    {
+      "name": "Parque Acuático El Lago",
+      "ageLimit": "4+",
+      "price": "Bs. 50 por persona",
+      "description": "Ubicado en Cochabamba, cuenta con áreas de juegos acuáticos y espacios para familias.",
+      "locationURL": "https://maps.app.goo.gl/dKthUPmKuue6eszC6",
+      "features": [
+        "Toboganes medianos",
+        "Piscina infantil",
+        "Zona de descanso para padres"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 /* || general styles */
-
 html {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
@@ -12,10 +11,10 @@ body {
 
 h1, h2 {
   font-family: 'Faster One', cursive;
+  color: #07506d;
 }
 
 /* header styles */
-
 h1 {
   font-size: 3rem;
   text-align: center;
@@ -28,7 +27,6 @@ header p {
 }
 
 /* section styles */
-
 section {
   display: flex;
   flex-wrap: wrap;
@@ -38,9 +36,11 @@ section {
 
 section article {
   flex: 1 1 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   padding: 1rem;
   box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #e0f7fa;
 }
 
 section p {
@@ -49,6 +49,7 @@ section p {
 
 section ul {
   margin-top: 0;
+  list-style-type: square;
 }
 
 h2 {
@@ -56,9 +57,23 @@ h2 {
   letter-spacing: -3px;
   margin-bottom: 10px;
 }
+button.map-btn {
+  background-color: #20baa8;  /* Verde */
+  color: white;               /* Texto blanco */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button.map-btn:hover {
+  background-color: #00ffd5;  /* Verde más oscuro al pasar el mouse */
+}
+
 
 /* 📱 Tablet */
-
 @media (min-width: 600px) {
   section article {
     flex: 1 1 calc(50% - 1rem);
@@ -66,7 +81,6 @@ h2 {
 }
 
 /* 💻 Desktop */
-
 @media (min-width: 900px) {
   section article {
     flex: 1 1 calc(33.333% - 1rem);
