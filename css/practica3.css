@@ -1,39 +1,30 @@
-/* || general styles */
 html {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
-
 body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
-
 h1, h2 {
   font-family: 'Faster One', cursive;
   color: #07506d;
 }
-
-/* header styles */
 h1 {
   font-size: 3rem;
   text-align: center;
 }
-
 header p {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
 }
-
-/* section styles */
 section {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
 }
-
 section article {
   flex: 1 1 100%;
   border: 1px solid #ffffff;
@@ -42,24 +33,21 @@ section article {
   border-radius: 8px;
   background-color: #e0f7fa;
 }
-
 section p {
   margin: 5px 0;
 }
-
 section ul {
   margin-top: 0;
   list-style-type: square;
 }
-
 h2 {
   font-size: 2rem;
   letter-spacing: -3px;
   margin-bottom: 10px;
 }
 button.map-btn {
-  background-color: #20baa8;  /* Verde */
-  color: white;               /* Texto blanco */
+  background-color: #20baa8;  
+  color: white;            
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -67,25 +55,18 @@ button.map-btn {
   font-weight: bold;
   transition: background 0.3s;
 }
-
 button.map-btn:hover {
-  background-color: #00ffd5;  /* Verde más oscuro al pasar el mouse */
+  background-color: #00ffd5;  
 }
-
-
-/* 📱 Tablet */
 @media (min-width: 600px) {
   section article {
     flex: 1 1 calc(50% - 1rem);
   }
 }
-
-/* 💻 Desktop */
 @media (min-width: 900px) {
   section article {
     flex: 1 1 calc(33.333% - 1rem);
   }
-
   h1 {
     font-size: 4rem;
   }
