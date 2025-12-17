@@ -1,7 +1,7 @@
 const header = document.querySelector('header');
 const section = document.querySelector('section');
 
-const requestURL = 'parques.json';
+const requestURL = 'https://raw.githubusercontent.com/jhonnmv19/tecnologia_web_I/main/Json/parques.json';
 const request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
