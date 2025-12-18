@@ -31,34 +31,29 @@ function showAttractions(jsonObj) {
   for (let i = 0; i < attractions.length; i++) {
     const myArticle = document.createElement('article');
     const myH2 = document.createElement('h2');
-    const myPara1 = document.createElement('p'); // Edad
-    const myPara2 = document.createElement('p'); // Descripción
-    const myPara3 = document.createElement('p'); // Características
-    const myPara4 = document.createElement('p'); // Precio
-    const myList = document.createElement('ul'); // Lista de características
-
+    const myPara1 = document.createElement('p');
+    const myPara2 = document.createElement('p');
+    const myPara3 = document.createElement('p'); 
+    const myPara4 = document.createElement('p'); 
+    const myList = document.createElement('ul'); 
     myH2.textContent = attractions[i].name;
     myPara1.textContent = 'Edad mínima: ' + attractions[i].ageLimit;
     myPara2.textContent = 'Descripción: ' + attractions[i].description;
     myPara4.textContent = 'Precio: ' + attractions[i].price;
     myPara3.textContent = 'Características:';
 
-    // Lista de características
     const features = attractions[i].features;
     for (let j = 0; j < features.length; j++) {
       const listItem = document.createElement('li');
       listItem.textContent = features[j];
       myList.appendChild(listItem);
     }
-
-    // Botón para Google Maps
     const mapButton = document.createElement('button');
     mapButton.textContent = 'Ver ubicación';
     mapButton.className = 'map-btn';
     mapButton.onclick = () => {
       window.open(attractions[i].locationURL, '_blank');
     };
-
     myArticle.appendChild(myH2);
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
